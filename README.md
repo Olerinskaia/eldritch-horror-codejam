@@ -1,3 +1,5 @@
+https://olerinskaia.github.io/eldritch-horror-codejam
+
 # Eldritch Horror Codejam
 
 ## Описание проекта
