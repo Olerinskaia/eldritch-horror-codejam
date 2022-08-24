@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.5s ease-out;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background: url('./assets/home.png');
+  background-repeat: no-repeat;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 auto; */
+  padding: 20px;
+}
+.ancient-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.ancient-card {
+  height: 260px;
+  width: 200px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.ancient-card:hover {
+  transform: scale(1.4);
+}
+.ancient-card-active {
+  border: 2px solid red;
+  transform: scale(1);
+}
+.difficulty-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.difficulty-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: rgb(181, 184, 187);
+  user-select: none;
+}
+.difficulty-button:hover,
+.difficulty-button:focus,
+.difficulty-button-active {
+  background-color: rgb(0, 0, 0, 0.1);
+}
+.deck {
+  height: 190px;
+  width: 130px;
+  background-image: url('./assets/mythicCardBackground.png');
+  background-size: cover;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/* .deck:hover {
+  transform: scale(1.3);
+} */
+
+.last-card {
+  height: 190px;
+  width: 130px;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 10px;
+}
