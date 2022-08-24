@@ -1,4 +1,5 @@
-https://olerinskaia.github.io/eldritch-horror-codejam
+
+https://olerinskaia.github.io/eldritch-horror-codejam/
 
 # Eldritch Horror Codejam
 
