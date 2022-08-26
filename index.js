@@ -311,7 +311,9 @@ azathoth.onclick = () => {
   cthulthu.classList.remove('ancient-card-active');
   iogSothoth.classList.remove('ancient-card-active');
   shubNiggurath.classList.remove('ancient-card-active');
-
+  stageText3.style.color = 'black';
+  stageText2.style.color = 'black';
+  stageText1.style.color = 'black';
   deck.style.backgroundImage = `url('./assets/mythicCardBackground.png')`;
   lastCard.style.backgroundImage = 'none';
   const a = 4;
@@ -353,6 +355,10 @@ cthulthu.onclick = () => {
   shubNiggurath.classList.remove('ancient-card-active');
   deck.style.backgroundImage = `url('./assets/mythicCardBackground.png')`;
   lastCard.style.backgroundImage = 'none';
+  stageText3.style.color = 'black';
+  stageText2.style.color = 'black';
+  stageText1.style.color = 'black';
+
   const a = 4;
   const b = 4;
 
@@ -392,6 +398,9 @@ iogSothoth.onclick = () => {
   shubNiggurath.classList.remove('ancient-card-active');
   deck.style.backgroundImage = `url('./assets/mythicCardBackground.png')`;
   lastCard.style.backgroundImage = 'none';
+  stageText3.style.color = 'black';
+  stageText2.style.color = 'black';
+  stageText1.style.color = 'black';
   const a = 3;
   const b = 6;
 
@@ -431,6 +440,9 @@ shubNiggurath.onclick = () => {
   shubNiggurath.classList.add('ancient-card-active');
   deck.style.backgroundImage = `url('./assets/mythicCardBackground.png')`;
   lastCard.style.backgroundImage = 'none';
+  stageText3.style.color = 'black';
+  stageText2.style.color = 'black';
+  stageText1.style.color = 'black';
   const a = 4;
   const b = 6;
 
